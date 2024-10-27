@@ -34,12 +34,13 @@ class App extends Component {
 
   render() {
     return (
-      <Router hashType="noslash" basename={process.env.BASE_PATH}>
-        <Switch>
-          <Route exact path="/PortfolioWebsite" component={PortfolioWebsite} />
-          <Redirect from="/" to="/PortfolioWebsite" />
-        </Switch>
-      </Router>
+      // <Router hashType="noslash" basename={process.env.BASE_PATH}>
+      //   <Switch>
+      //     <Route exact path="/PortfolioWebsite" component={PortfolioWebsite} />
+      //     <Redirect from="/" to="/PortfolioWebsite" />
+      //   </Switch>
+      // </Router>
+      <PortfolioWebsite />
     );
   }
 }

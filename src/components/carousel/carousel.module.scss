@@ -1,0 +1,46 @@
+@use "../utils" as *;
+@use "../global" as *;
+
+.carousel_container {
+  width: 100%;
+  max-width: 800px;
+  margin: 10px auto;
+}
+
+.carousel_item {
+  position: relative;
+  text-align: center;
+}
+
+.message_overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 10px;
+  background: rgba(0, 0, 0, 0.5); /* Slight background overlay */
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.title_overlay {
+  position: absolute;
+  bottom: 23px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 10px;
+  background: rgba(0, 0, 0, 0.5); /* Slight background overlay */
+  padding: 5px 15px;
+  border-radius: 5px;
+}
+.modal_img {
+  width: 100%;
+  @include md {
+    height: auto;
+  }
+  @include xs {
+    height: 40vh;
+  }
+}

@@ -56,17 +56,20 @@
 }
 .image7 {
   position: relative;
-  margin: 0px 0px 200px;
   width: 400px;
   min-width: 0px;
   object-fit: cover;
+  clip-path: inset(0 0 26% 0);
   @include md {
     margin-top: unset;
     margin-bottom: unset;
     width: 100%;
     min-width: unset;
     max-width: 400px;
-    
+  }
+  @include xs {
+    clip-path: inset(0 0 50% 0);
+    margin-bottom: -322px;
   }
 }
 .flex_col1 {
