@@ -9,7 +9,7 @@ function scrollToSection(sectionId) {
 const handleDownload = () => {
   // URL of the file to be downloaded
   const fileUrl =
-    "https://drive.google.com/file/d/1dLRnjvOsg7JPUSl1E0cdde6vXEpsP9Qp/view?usp=drive_link";
+    "https://drive.google.com/file/d/14JgZ-8rA-Umk_iKjFYnETbx_YyZZKedn/view?usp=sharing";
 
   // Create an invisible link element
   const link = document.createElement("a");

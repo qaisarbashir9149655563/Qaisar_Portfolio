@@ -49,7 +49,35 @@ function renderSection5(props) {
             Here is a quick summary of my most recent experiences:
           </h3>
         </div>
-
+        <div className={section5Styles.group}>
+        <div
+            className={section5Styles.content_box}
+            style={{
+              "--src": `url(${"/assets/a872dd9a940ea0dcefdb3f1392b29a5b.svg"})`,
+            }}
+          >
+            <div className={section5Styles.flex_row}>
+              <div className={section5Styles.group1}>
+                <h3 className={section5Styles.subtitle1}>
+                  Software Development Engineer &rarr; Skor Technologies
+                </h3>
+                <h5 className={section5Styles.highlight2}>
+                  <table>
+                    <tr>
+                      <td>
+                        &raquo; Spearheaded the design and development of a responsive Skor Card website, leveraging React.js and NodeJs to enhance user experience and
+                        scalability, enabling seamless access for over 3 million users to participate in referral programs and earn rewards.
+                      </td>
+                    </tr>
+                  </table>
+                </h5>
+              </div>
+              <h5 className={section5Styles.highlight4}>
+                <b>Dec 2024 - Present</b>
+              </h5>
+            </div>
+          </div>
+        </div>
         <div className={section5Styles.group}>
           <div
             className={section5Styles.content_box}
@@ -171,7 +199,7 @@ function renderSection5(props) {
                 </h5>
               </div>
               <h5 className={section5Styles.highlight4}>
-                <b>Mar 2022 - Present</b>
+                <b>Mar 2022 - Nov 2024</b>
               </h5>
             </div>
             <h3 className={section5Styles.subtitle1}>

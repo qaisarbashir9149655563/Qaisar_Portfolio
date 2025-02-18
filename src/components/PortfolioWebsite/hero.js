@@ -42,8 +42,8 @@ function RenderSection2(props) {
               )}
             </h1>
             <h5 className={heroStyles.highlight2}>
-              Software Engineer with 2+ years of experience building high-scale
-              products in an HR tech company. Skilled in designing and
+              Software Engineer with 3+ years of experience building high-scale
+              products in an HR tech and FinTech company. Skilled in designing and
               developing scalable, high-performance applications with a history
               of delivering effective solutions. Enthusiastic about the
               opportunity to work with cutting-edge technology and contribute to
